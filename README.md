@@ -1,5 +1,5 @@
 <p align="center">
-<img width="901" height="274" alt="Screenshot 2026-02-06 164314" src="https://github.com/user-attachments/assets/cec2ced5-3323-4d84-a2a2-b60b96955907" />
+<img width="791" height="257" alt="Screenshot 2026-02-07 171520" src="https://github.com/user-attachments/assets/220b2130-a504-4326-8ef6-ec513d20357b" />
 </p>
 <h1><u>Milestone 3: HQ Access Switching</u></h1>
     <p>Second phase, we will install 3 Cisco WS-C2960-24TT layer 2 access switches.</p>
