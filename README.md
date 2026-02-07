@@ -42,7 +42,7 @@
         <p>- D. Routes to Branch 2 Private Networks via Branch 2 Public IP</p>
     <h2><strong><u>Implementation</u></strong></h2>
         <h3>Step 1: Rack, Mount, and Power On The Cisco 2911 Router</h3>
-            <p>- First, we'll add three 2960 switches to the topology by dragging and dropping them into the Headquarters section of the lab. Place them side by side and label them as HQ-ASW1, HQ-ASW2, and HQ-ASW3.</p>
+            <p>- First, we'll Add a 2901 Router to the topology by dragging and dropping it into the Headquarters section of the lab. We'll place the 2901 Router in the top right area of HQ and label it as “HQ-INET-RTR”.</p>
                 <img width="849" height="976" alt="Screenshot 2026-02-06 170658" src="https://github.com/user-attachments/assets/7704547b-449d-4bf6-a9e5-b3cb783f1ac2" />
         <h3>Step 2: Install Securityk9 License</h3>
             <p>- In this step, we did basic configuration for both of the switches including changing their hostnames, setting their time zones, enabling SSH, setting domain names, adding securiting to console and vty lines for SSH, and creating user profiles with a password the devices</p>
