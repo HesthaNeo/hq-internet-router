@@ -31,6 +31,10 @@
         <p>- E. Ipsec-Isakmp Crypto Map</p>
     <p>Step 9: Configure Access-List to Allow Only VPN Traffic From Branch 2</p>
     <p>Step 10: Configure and Connect Internet Interface G0/2</p>
+        <p>- A. IP Address</p>
+        <p>- B. Disable CDP</p>
+        <p>- C. Apply VPN Only Access-List Inbound</p>
+        <p>- D. Apply VPN Crypto Map For Branch 2 VPN</p>
     <h2><strong><u>Implementation</u></strong></h2>
         <h3>Step 1: Rack, Mount, and Power On All 3 Switches</h3>
             <p>- First, we'll add three 2960 switches to the topology by dragging and dropping them into the Headquarters section of the lab. Place them side by side and label them as HQ-ASW1, HQ-ASW2, and HQ-ASW3.</p>
