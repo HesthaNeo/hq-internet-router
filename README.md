@@ -11,10 +11,7 @@
     <p>Step 5: Configure NAT</p>
         <p>- A. NAT Inside Access-List</p>
         <p>- B. NAT Overload</p>
-    <p>Step 6: Configure Private WAN Border Gateway Protocol (BGP) Peering</p>
-        <p>- A. MGMT Interface VLAN 100</p>
-        <p>- B. DATA Interface VLAN 192</p>
-            <p>- I. NAT Inside</p>
+    <p>Step 6: Configure IOS Firewall Inspection Rules</p>
     <p>Step 7: Configure and Connect Inside LAN Interface G0/0</p>
         <p>- A. MGMT Interface VLAN 100</p> 
         <p>- B. DATA Interface VLAN 192</p>
