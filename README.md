@@ -50,7 +50,7 @@
                 <img width="747" height="887" alt="Screenshot 2026-02-07 182345" src="https://github.com/user-attachments/assets/f0944b22-198a-409e-a64f-ab28e90992ec" />
                 <img width="869" height="709" alt="Screenshot 2026-02-07 182703" src="https://github.com/user-attachments/assets/ca12f94f-bde6-4f7c-847a-2059ac43cfed" />
             <p><em>- Successful pings, showing we are able to establish connectivity to both the MGMT and DATA networks.</em></p>
-        <h3>Step 5: Configure and Connect Private WAN Interface G0/1</h3>
+        <h3>Step 8: Configure and Connect Private WAN Interface G0/1</h3>
             <p>- In this step, we will configure the default gateway for all 3 switches.</p>
                 <img width="867" height="227" alt="Screenshot 2026-02-06 173804" src="https://github.com/user-attachments/assets/7889b8e9-57a4-489e-830c-0666a44a69cd" />
                 <img width="868" height="226" alt="Screenshot 2026-02-06 173845" src="https://github.com/user-attachments/assets/f0f17c2b-956e-49ff-b165-c225725d7412" />
@@ -60,7 +60,7 @@
                 <img width="866" height="338" alt="Screenshot 2026-02-06 174735" src="https://github.com/user-attachments/assets/79618d22-e5f1-4501-bcda-477e60cc495f" />
                 <img width="870" height="335" alt="Screenshot 2026-02-06 174909" src="https://github.com/user-attachments/assets/1cdb276d-d96b-4453-b06f-f8e5b1d0e1a8" />
                 <img width="868" height="339" alt="Screenshot 2026-02-06 175110" src="https://github.com/user-attachments/assets/1a88f976-e08d-4855-9e4f-b80cab455061" />
-        <h3>Step 7: Configure Private WAN Voice Quality of Service</h3>
+        <h3>Step 9: Configure Private WAN Voice Quality of Service</h3>
             <p>- Now we will configure all necessary access ports so that the corresponding end devices may connect to their specific vlan. We do this to provide security by segregating the traffic, simplifying network management, and ensuring these end devices only receive data intended for their assigned network segment. We will be configuring fast access ports Fa0/1 - 22 for all 3 switches. </p>
                 <img width="872" height="607" alt="Screenshot 2026-02-06 180001" src="https://github.com/user-attachments/assets/6ddf15a6-dd85-4b57-b455-e21dc4cdf042" />
                 <img width="869" height="317" alt="Screenshot 2026-02-06 180042" src="https://github.com/user-attachments/assets/b482fd4e-2296-418a-a168-5a5645146501" />
@@ -68,40 +68,6 @@
                 <img width="873" height="349" alt="Screenshot 2026-02-06 180227" src="https://github.com/user-attachments/assets/4dff446f-1601-4267-9cde-dcb661249f1e" />
                 <img width="868" height="797" alt="Screenshot 2026-02-06 180327" src="https://github.com/user-attachments/assets/d2db6517-1af0-44dd-97a4-4ee74d4fef8f" />
                 <img width="873" height="325" alt="Screenshot 2026-02-06 180400" src="https://github.com/user-attachments/assets/d774149c-9f74-4526-8555-59991272ac5e" />
-        <h3>Step 8: Configure IPSec/Isakmp VPN Policy and Cryptography</h3>
-            <p>- For this next step, we will configure interfaces fa0/23-24 as our trunk ports, while also administratively shutting down our gig ports for added security.</p>
-                <img width="867" height="386" alt="Screenshot 2026-02-06 181415" src="https://github.com/user-attachments/assets/5cc841fe-bd6e-40cb-a1cc-1cb2cd8952f8" />
-                <img width="868" height="387" alt="Screenshot 2026-02-06 181548" src="https://github.com/user-attachments/assets/b64da8dd-b3d7-4cbf-8c24-d53e40269be8" />
-                <img width="870" height="381" alt="Screenshot 2026-02-06 181705" src="https://github.com/user-attachments/assets/0f8dd081-9bb0-4669-8d3e-244d0e3e4b16" />
-            <p>- A. We will now connect each access switch trunk port to the core switches using ethernet crossover cables.</p>
-            <p><em>- We will connect ASW 1-3 ports Fa0/23 to trunk port fa0/19, fa0/20, and fa0/21 on CORE-SW1.</em></p>
-            <p><em>- We will connect ASW 1-3 ports Fa0/24 to trunk port fa0/19, fa0/20, and fa0/21 on CORE-SW2.</em></p>
-                <img width="734" height="863" alt="Screenshot 2026-02-06 183510" src="https://github.com/user-attachments/assets/e8f4ceeb-dd2a-48b6-80af-976ac2016021" />
-            <p>- B. Now we will verify the VLAN database to ensure all VLANs were copied over from the VTP Servers to the VTP Clients (I.e. from core switches to access switches).</p>
-                <img width="871" height="588" alt="Screenshot 2026-02-07 161651" src="https://github.com/user-attachments/assets/35a4eabe-3543-4ce5-8c21-02abfdd5b8b2" />
-                <img width="869" height="526" alt="Screenshot 2026-02-07 161746" src="https://github.com/user-attachments/assets/d60e1916-9caa-43dd-bbd8-5017a862837b" />
-                <img width="871" height="530" alt="Screenshot 2026-02-07 161828" src="https://github.com/user-attachments/assets/10589e89-a61f-4bb0-b4dd-1d741ac01eaf" />
-             <p><em>- As you can see, all of our vlans were successfully transferred over from our core switches to the access switches using VTP protocol.</em></p>
-        <h3>Step 9: Configure Access-List to Allow Only VPN Traffic From Branch 2</h3>   
-            <p>- For the final step in this second milestone, we will now connect a new Test PC to the Data VLAN for testing network access via the Access Switches.</p>
-            <p>- A. We will Drag and drop a PC into the topology and label it as “ASW-Test-PC.</p>
-                <img width="848" height="971" alt="Screenshot 2026-02-07 164138" src="https://github.com/user-attachments/assets/55d790db-750e-4fed-b6f2-242d38b1321b" />
-            <p>- B. Next we'll connect a straight-through from the PC FastEthernet0 to an Access Port on HQ-ASW1.</p>
-                <img width="762" height="880" alt="Screenshot 2026-02-07 164435" src="https://github.com/user-attachments/assets/37ffda36-08c7-45d4-a0e2-ed146ba43b07" />
-            <p>- C. Now we'll click on the PC to configure a static IP address, subnet mask, and default gateway. Our IP address for this Test PC will be 192.168.10.151 255.255.255.0 with a default gateway of 192.168.10.100.</p>
-                <img width="870" height="884" alt="Screenshot 2026-02-07 164807" src="https://github.com/user-attachments/assets/0e91fbeb-993d-4804-811d-c0a8a08220d3" />
-                <img width="867" height="887" alt="Screenshot 2026-02-07 164844" src="https://github.com/user-attachments/assets/815ebfbf-4859-4ee0-a1a7-8a0ae616d3ac" />
-            <p>- D. Now we can access the command prompt of the ASW-Test-PC to test connectivity to various IPs.</p>
-                <img width="2557" height="1599" alt="Screenshot 2026-02-07 165312" src="https://github.com/user-attachments/assets/affc40cd-8a5c-4162-8670-b8bd41363f5c" />
-            <p><em>- As you can see, we were able to successfully ping our default gateway (192.168.10.100), the Test-PC connected to our core switches (192.168.10.150), the NOC-PC (192.168.110.50), and all 3 of our access switches (192.168.110.241-3) after ARP finished resolving.</em></p>
-            <p>- E. Now from the command prompt of the ASW-Test-PC we'll verify management plane ssh access to the access switches is restricted.</p>
-                <img width="875" height="269" alt="Screenshot 2026-02-07 165953" src="https://github.com/user-attachments/assets/eb771257-9913-434e-b375-41069453b493" />
-            <p><em>- As you can see, we are unable to remotely access the management plane of our network, due to the access control lists we configured earlier in the network configuration. Our access list is deny any other IP address that aren't explicitly stated in the configuration, showing that this was successful.</em></p>
-            <p>- F. Now using the NOC-PC, lets verify successful management plane access via ssh to the access switches from the management network.</p>
-                <img width="871" height="1017" alt="Screenshot 2026-02-07 170701" src="https://github.com/user-attachments/assets/681e4b22-3f65-4ab5-b612-21ad63e06eb8" />
-            <p><em>- We were able to connect successfully to the management plane of the newly installed access switches.</em></p>
-         <h3>Step 10: Configure and Connect Internet Interface G0/2</h3>\
-         <h3>Step 11: Configure Static Routes</h3>
 
 
 
