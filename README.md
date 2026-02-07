@@ -7,22 +7,18 @@
     <p>Step 1: Rack, Mount, and Power On The Cisco 2911 Router</p>
     <p>Step 2: Basic Switch Configurations (Hostname, NTP, Domain-Name, SSH, Etc)</p>
     <p>Step 3: Install Securityk9 License</p>
-    <p>Step 4: Configure and Connect HQ LAN Interface G0/0</p>
-        <p>- A. MGMT Interface VLAN 100</p>
-        <p>- B. DATA Interface VLAN 192</p>
+    <p>Step 4: Configure Inbound Internet Access-List</p>
     <p>Step 5: Configure and Connect Private WAN Interface G0/1</p>
         <p>- A. IP Address</p>
         <p>- B. Disable CDP</p>
     <p>Step 6: Configure Private WAN Border Gateway Protocol (BGP) Peering</p>
-        <p>- A. BGP ASN 65123</p>
-            <p>- I. Router ID</p>
-            <p>- II. Neighbor</p>
-            <p>- III. Networks</p>
-    <p>Step 7: Configure Private WAN Voice Quality of Service</p>
-        <p>- A. VOIP Control and RTP Access-Lists</p> 
-        <p>- B. VOIP Control and RTP Class-Maps</p>
-        <p>- C. Policy-Map</p>
-        <p>- D. Apply Policy-Map to Private WAN Interface G0/1</p>
+        <p>- A. MGMT Interface VLAN 100</p>
+        <p>- B. DATA Interface VLAN 192</p>
+            <p>- I. NAT Inside</p>
+    <p>Step 7: Configure and Connect Inside LAN Interface G0/0</p>
+        <p>- A. MGMT Interface VLAN 100</p> 
+        <p>- B. DATA Interface VLAN 192</p>
+            <p>- I. NAT Inside</p>
     <p>Step 8: Configure IPSec/Isakmp VPN Policy and Cryptography</p>
         <p>- A. Branch 2 Traffic Access List</p>
         <p>- B. Isakmp Policy</p>
@@ -52,7 +48,7 @@
                 <img width="874" height="939" alt="Screenshot 2026-02-07 180229" src="https://github.com/user-attachments/assets/252fd020-0fd3-470d-a065-6d02df2954ff" />
                 <img width="866" height="1158" alt="Screenshot 2026-02-07 180422" src="https://github.com/user-attachments/assets/b1d7090a-d18b-4744-8603-26d0e7dbaeaa" />
             <p><em>- After reloading the router, you can see that the securityk9 licensing software was installed successfully.</em></p>
-        <h3>Step 4: Configure and Connect HQ LAN Interface G0/0</h3>
+        <h3>Step 7: Configure and Connect Inside LAN Interface G0/0</h3>
             <p>- Next we will configure the inside LAN interface G0/0 as a trunk for the Management and Data Networks, and connect the interface to the Core switched infrastructure.</p>
                 <p>- A: Configure the inside LAN interface.</p>
                 <img width="871" height="709" alt="Screenshot 2026-02-07 181525" src="https://github.com/user-attachments/assets/77acffef-9166-4de3-94f9-7fbab0801481" />
