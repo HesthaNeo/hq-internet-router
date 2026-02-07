@@ -5,8 +5,8 @@
     <p>Third phase, we will install 1 CISCO2911/K9 with ipbasek9 and securityk9 licensing. This router will act as the gateway for all WAN services that connect Headquarters to Branch 1 and Branch 2. This includes a Private WAN connection to Branch 1 via the WAN service provider using BGP peering. In addition, a second internet service will be connected to this router solely for the purpose of creating an IPSec Site to Site (L2L) Virtual Private Network connection.</p>
     <h2><strong><u>Configuration Steps</u></strong></h2>
     <p>Step 1: Rack, Mount, and Power On The Cisco 2911 Router</p>
-    <p>Step 2: Install Securityk9 License</p>
-    <p>Step 3: Basic Switch Configurations (Hostname, NTP, Domain-Name, SSH, Etc)</p>
+    <p>Step 2: Basic Switch Configurations (Hostname, NTP, Domain-Name, SSH, Etc)</p>
+    <p>Step 3: Install Securityk9 License</p>
     <p>Step 4: Configure and Connect HQ LAN Interface G0/0</p>
         <p>- A. MGMT Interface VLAN 100</p>
         <p>- B. DATA Interface VLAN 192</p>
@@ -44,12 +44,12 @@
         <h3>Step 1: Rack, Mount, and Power On The Cisco 2911 Router</h3>
             <p>- First, we'll Add a 2901 Router to the topology by dragging and dropping it into the Headquarters section of the lab. We'll place the 2901 Router in the top right area of HQ and label it as “HQ-INET-RTR”.</p>
                 <img width="739" height="970" alt="Screenshot 2026-02-07 173927" src="https://github.com/user-attachments/assets/1ceae563-e79f-4427-930b-e8699e4e4c4e" />
-        <h3>Step 2: Install Securityk9 License</h3>
-            <p>- In this step, we did basic configuration for both of the switches including changing their hostnames, setting their time zones, enabling SSH, setting domain names, adding securiting to console and vty lines for SSH, and creating user profiles with a password the devices</p>
+        <h3>Step 2: Basic Switch Configurations (Hostname, NTP, Domain-Name, SSH, Etc)</h3>
+            <p>- In this step, we did basic configuration for both of the switches including changing their hostnames, setting their time zones, enabling SSH, setting domain names, adding securiting to console and vty lines for SSH, and creating user profiles with a password thedevices</p>
                 <img width="867" height="896" alt="Screenshot 2026-02-06 171129" src="https://github.com/user-attachments/assets/3ae0553b-ebfd-4adc-8154-4c4cac1bd1b1" />
                 <img width="870" height="905" alt="Screenshot 2026-02-06 171255" src="https://github.com/user-attachments/assets/bfbb60cc-eb80-42e5-96e2-53c630386aa8" />
                 <img width="872" height="907" alt="Screenshot 2026-02-06 171401" src="https://github.com/user-attachments/assets/f6f42ebc-d37f-4d1f-becb-f746c8e8955f" />
-        <h3>Step 3: Basic Switch Configurations (Hostname, NTP, Domain-Name, SSH, Etc)</h3>
+        <h3>Step 3: Install Securityk9 License</h3>
             <p>- Next we will configure VTP on these switches to receive and sync all VLAN updates from the vtp server we configured in the first milestone.</p>
                 <img width="873" height="618" alt="Screenshot 2026-02-06 172047" src="https://github.com/user-attachments/assets/286483a4-c123-4d64-91e9-1392d67fe7a6" />
                 <img width="871" height="616" alt="Screenshot 2026-02-06 172212" src="https://github.com/user-attachments/assets/0239a279-7874-41fe-9cde-7602be6e307d" />
