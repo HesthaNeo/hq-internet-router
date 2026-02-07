@@ -48,7 +48,7 @@
             <p>- In this step, we did basic configuration for both of the switches including changing their hostnames, setting their time zones, enabling SSH, setting domain names, adding securiting to console and vty lines for SSH, and creating user profiles with a password thedevices</p>
                 <img width="871" height="1002" alt="Screenshot 2026-02-07 174426" src="https://github.com/user-attachments/assets/b17c20ed-f02e-4dc9-8c0d-9b39391efbc5" />
         <h3>Step 3: Install Securityk9 License</h3>
-            <p>- Next we will configure VTP on these switches to receive and sync all VLAN updates from the vtp server we configured in the first milestone.</p>
+            <p>- Next we will activate the security licensing 60 day grace period on the 2901 Router. We do this to unlock advanced security features, primarily for setting up VPNs (IPsec), secure communication, and enhanced firewall functionality.</p>
                 <img width="873" height="618" alt="Screenshot 2026-02-06 172047" src="https://github.com/user-attachments/assets/286483a4-c123-4d64-91e9-1392d67fe7a6" />
                 <img width="871" height="616" alt="Screenshot 2026-02-06 172212" src="https://github.com/user-attachments/assets/0239a279-7874-41fe-9cde-7602be6e307d" />
                 <img width="871" height="890" alt="Screenshot 2026-02-06 172337" src="https://github.com/user-attachments/assets/92834966-d56d-4f3a-b417-4e1c1a37db5f" />
