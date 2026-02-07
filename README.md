@@ -7,13 +7,17 @@
     <p>Step 1: Rack, Mount, and Power On The Cisco 2911 Router</p>
     <p>Step 2: Install Securityk9 License</p>
     <p>Step 3: Basic Switch Configurations (Hostname, NTP, Domain-Name, SSH, Etc)</p>
-    <p>Step 3: Configure and Connect HQ LAN Interface G0/0</p>
+    <p>Step 4: Configure and Connect HQ LAN Interface G0/0</p>
         <p>- A. MGMT Interface VLAN 100</p>
         <p>- B. DATA Interface VLAN 192</p>
-    <p>Step 4: Configure and Connect Private WAN Interface G0/1</p>
+    <p>Step 5: Configure and Connect Private WAN Interface G0/1</p>
         <p>- A. IP Address</p>
         <p>- B. Disable CDP</p>
-    <p>Step 5: Configure Default Gateway</p>
+    <p>Step 6: Configure Private WAN Border Gateway Protocol (BGP) Peering</p>
+        <p>- A. BGP ASN 65123</p>
+            <p>- I. Router ID</p>
+            <p>- II. Neighbor</p>
+            <p>- III. Networks</p>
     <p>Step 6: Configure Access-List To Protect The Management Plane</p>
     <p>Step 7: Configure Access Ports</p>
     <p>Step 8: Configure and Connect Trunk Ports</p>
