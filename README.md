@@ -39,6 +39,8 @@
                 <img width="866" height="1158" alt="Screenshot 2026-02-07 180422" src="https://github.com/user-attachments/assets/b1d7090a-d18b-4744-8603-26d0e7dbaeaa" />
             <p><em>- After reloading the router, you can see that the securityk9 licensing software was installed successfully.</em></p>
         <h3>Step 4: Configure Inbound Internet Access-List</h3>
+            <p>- Next we will configure an access control list that will be applied to protect the internet facing interface.</p>
+                <img width="866" height="261" alt="Screenshot 2026-02-07 185411" src="https://github.com/user-attachments/assets/a4186eb3-0afb-42f2-b84a-a27f474a7b4e" />
         <h3>Step 5: Configure NAT</h3>
         <h3>Step 6: Configure IOS Firewall Inspection Rules</h3>
         <h3>Step 7: Configure and Connect Inside LAN Interface G0/0</h3>
