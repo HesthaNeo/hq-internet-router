@@ -4,9 +4,12 @@
 <h1><u>Milestone 4: HQ Internet Router</u></h1>
     <p>Third phase, we will install 1 CISCO2911/K9 with ipbasek9 and securityk9 licensing. This router will act as the gateway for all WAN services that connect Headquarters to Branch 1 and Branch 2. This includes a Private WAN connection to Branch 1 via the WAN service provider using BGP peering. In addition, a second internet service will be connected to this router solely for the purpose of creating an IPSec Site to Site (L2L) Virtual Private Network connection.</p>
     <h2><strong><u>Configuration Steps</u></strong></h2>
-    <p>Step 1: Rack, Mount, and Power On All 3 Switches</p>
-    <p>Step 2: Basic Switch Configurations (Hostname, NTP, Domain-Name, SSH, Etc)</p>
-    <p>Step 3: Configure VLAN Trunking Protocol (VTP) Client</p>
+    <p>Step 1: Rack, Mount, and Power On The Cisco 2911 Router</p>
+    <p>Step 2: Install Securityk9 License</p>
+    <p>Step 3: Basic Switch Configurations (Hostname, NTP, Domain-Name, SSH, Etc)</p>
+    <p>Step 3: Configure and Connect HQ LAN Interface G0/0</p>
+        <p>- A. MGMT Interface VLAN 100</p>
+        <p>- B. DATA Interface VLAN 192</p>
     <p>Step 4: Configure MGMT VLAN Interface</p>
     <p>Step 5: Configure Default Gateway</p>
     <p>Step 6: Configure Access-List To Protect The Management Plane</p>
