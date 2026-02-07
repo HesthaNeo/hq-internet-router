@@ -49,9 +49,8 @@
                 <img width="871" height="1002" alt="Screenshot 2026-02-07 174426" src="https://github.com/user-attachments/assets/b17c20ed-f02e-4dc9-8c0d-9b39391efbc5" />
         <h3>Step 3: Install Securityk9 License</h3>
             <p>- Next we will activate the security licensing 60 day grace period on the 2901 Router. We do this to unlock advanced security features, primarily for setting up VPNs (IPsec), secure communication, and enhanced firewall functionality.</p>
-                <img width="873" height="618" alt="Screenshot 2026-02-06 172047" src="https://github.com/user-attachments/assets/286483a4-c123-4d64-91e9-1392d67fe7a6" />
-                <img width="871" height="616" alt="Screenshot 2026-02-06 172212" src="https://github.com/user-attachments/assets/0239a279-7874-41fe-9cde-7602be6e307d" />
-                <img width="871" height="890" alt="Screenshot 2026-02-06 172337" src="https://github.com/user-attachments/assets/92834966-d56d-4f3a-b417-4e1c1a37db5f" />
+                <img width="872" height="179" alt="Screenshot 2026-02-07 175709" src="https://github.com/user-attachments/assets/c477a99d-1876-43ed-b23d-2f5cb727dccd" />
+
         <h3>Step 4: Configure and Connect HQ LAN Interface G0/0</h3>
             <p>- Next we will configure the interface for the management VLAN connectivity on all 3 switches for centralized network management.</p>
                 <img width="866" height="272" alt="Screenshot 2026-02-06 172923" src="https://github.com/user-attachments/assets/f4bc5bc7-b1c7-406a-99c1-572975935a4d" />
