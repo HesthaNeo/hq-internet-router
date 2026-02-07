@@ -23,7 +23,12 @@
         <p>- B. VOIP Control and RTP Class-Maps</p>
         <p>- C. Policy-Map</p>
         <p>- D. Apply Policy-Map to Private WAN Interface G0/1</p>
-    <p>Step 8: Configure Access Ports</p>
+    <p>Step 8: Configure IPSec/Isakmp VPN Policy and Cryptography</p>
+        <p>- A. Branch 2 Traffic Access List</p>
+        <p>- B. Isakmp Policy</p>
+        <p>- C. Isakmp Key</p>
+        <p>- D. Ipsec SA Lifetime and Transform-Set</p>
+        <p>- E. Ipsec-Isakmp Crypto Map</p>
     <p>Step 8: Configure and Connect Trunk Ports</p>
     <p>Step 9: Verify Connectivity In The Network</p>
     <h2><strong><u>Implementation</u></strong></h2>
