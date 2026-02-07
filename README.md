@@ -8,9 +8,9 @@
     <p>Step 2: Basic Switch Configurations (Hostname, NTP, Domain-Name, SSH, Etc)</p>
     <p>Step 3: Install Securityk9 License</p>
     <p>Step 4: Configure Inbound Internet Access-List</p>
-    <p>Step 5: Configure and Connect Private WAN Interface G0/1</p>
-        <p>- A. IP Address</p>
-        <p>- B. Disable CDP</p>
+    <p>Step 5: Configure NAT</p>
+        <p>- A. NAT Inside Access-List</p>
+        <p>- B. NAT Overload</p>
     <p>Step 6: Configure Private WAN Border Gateway Protocol (BGP) Peering</p>
         <p>- A. MGMT Interface VLAN 100</p>
         <p>- B. DATA Interface VLAN 192</p>
@@ -48,6 +48,7 @@
                 <img width="874" height="939" alt="Screenshot 2026-02-07 180229" src="https://github.com/user-attachments/assets/252fd020-0fd3-470d-a065-6d02df2954ff" />
                 <img width="866" height="1158" alt="Screenshot 2026-02-07 180422" src="https://github.com/user-attachments/assets/b1d7090a-d18b-4744-8603-26d0e7dbaeaa" />
             <p><em>- After reloading the router, you can see that the securityk9 licensing software was installed successfully.</em></p>
+        <h3>Step 4: Configure Inbound Internet Access-List</h3>
         <h3>Step 7: Configure and Connect Inside LAN Interface G0/0</h3>
             <p>- Next we will configure the inside LAN interface G0/0 as a trunk for the Management and Data Networks, and connect the interface to the Core switched infrastructure.</p>
                 <p>- A: Configure the inside LAN interface.</p>
