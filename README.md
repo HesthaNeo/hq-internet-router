@@ -10,7 +10,9 @@
     <p>Step 3: Configure and Connect HQ LAN Interface G0/0</p>
         <p>- A. MGMT Interface VLAN 100</p>
         <p>- B. DATA Interface VLAN 192</p>
-    <p>Step 4: Configure MGMT VLAN Interface</p>
+    <p>Step 4: Configure and Connect Private WAN Interface G0/1</p>
+        <p>- A. IP Address</p>
+        <p>- B. Disable CDP</p>
     <p>Step 5: Configure Default Gateway</p>
     <p>Step 6: Configure Access-List To Protect The Management Plane</p>
     <p>Step 7: Configure Access Ports</p>
