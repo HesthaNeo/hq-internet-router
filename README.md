@@ -35,6 +35,7 @@
         <p>- B. Disable CDP</p>
         <p>- C. Apply VPN Only Access-List Inbound</p>
         <p>- D. Apply VPN Crypto Map For Branch 2 VPN</p>
+    <p>Step 11: Configure Static Routes</p>
     <h2><strong><u>Implementation</u></strong></h2>
         <h3>Step 1: Rack, Mount, and Power On All 3 Switches</h3>
             <p>- First, we'll add three 2960 switches to the topology by dragging and dropping them into the Headquarters section of the lab. Place them side by side and label them as HQ-ASW1, HQ-ASW2, and HQ-ASW3.</p>
