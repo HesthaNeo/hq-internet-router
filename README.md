@@ -16,12 +16,12 @@
         <p>- A. MGMT Interface VLAN 100</p> 
         <p>- B. DATA Interface VLAN 192</p>
             <p>- I. NAT Inside</p>
-    <p>Step 8: Configure IPSec/Isakmp VPN Policy and Cryptography</p>
-        <p>- A. Branch 2 Traffic Access List</p>
-        <p>- B. Isakmp Policy</p>
-        <p>- C. Isakmp Key</p>
-        <p>- D. Ipsec SA Lifetime and Transform-Set</p>
-        <p>- E. Ipsec-Isakmp Crypto Map</p>
+    <p>Step 8: Configure and Connect Outside Internet Interface G0/1</p>
+        <p>- A. IP Address</p>
+        <p>- B. Disable CDP</p>
+        <p>- C. Apply Inbound Access-List</p>
+        <p>- D. Apply IOS Firewall Outbound</p>
+        <p>- E. NAT Outside</p>
     <p>Step 9: Configure Access-List to Allow Only VPN Traffic From Branch 2</p>
     <p>Step 10: Configure and Connect Internet Interface G0/2</p>
         <p>- A. IP Address</p>
