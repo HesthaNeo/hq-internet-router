@@ -18,8 +18,12 @@
             <p>- I. Router ID</p>
             <p>- II. Neighbor</p>
             <p>- III. Networks</p>
-    <p>Step 6: Configure Access-List To Protect The Management Plane</p>
-    <p>Step 7: Configure Access Ports</p>
+    <p>Step 7: Configure Private WAN Voice Quality of Service</p>
+        <p>- A. VOIP Control and RTP Access-Lists</p> 
+        <p>- B. VOIP Control and RTP Class-Maps</p>
+        <p>- C. Policy-Map</p>
+        <p>- D. Apply Policy-Map to Private WAN Interface G0/1</p>
+    <p>Step 8: Configure Access Ports</p>
     <p>Step 8: Configure and Connect Trunk Ports</p>
     <p>Step 9: Verify Connectivity In The Network</p>
     <h2><strong><u>Implementation</u></strong></h2>
