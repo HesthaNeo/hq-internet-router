@@ -22,17 +22,10 @@
         <p>- C. Apply Inbound Access-List</p>
         <p>- D. Apply IOS Firewall Outbound</p>
         <p>- E. NAT Outside</p>
-    <p>Step 9: Configure Access-List to Allow Only VPN Traffic From Branch 2</p>
-    <p>Step 10: Configure and Connect Internet Interface G0/2</p>
-        <p>- A. IP Address</p>
-        <p>- B. Disable CDP</p>
-        <p>- C. Apply VPN Only Access-List Inbound</p>
-        <p>- D. Apply VPN Crypto Map For Branch 2 VPN</p>
-    <p>Step 11: Configure Static Routes</p>
-        <p>- A. Default Route Pointing to HQ Internet Router DATA Interface IP Address</p>
-        <p>- B. Route to HQ Voice Network Pointing to HQ Core Switch Voice Network HSRP Address</p>
-        <p>- C. Route to Branch 2 Public IP address via Internet Gateway Public IP</p>
-        <p>- D. Routes to Branch 2 Private Networks via Branch 2 Public IP</p>
+    <p>Step 9: Configure Static Routes</p>
+        <p>- A. Default Route Pointing to Internet Gateway Public IP</p>
+        <p>- B. Routes to Branch 1 Networks and Branch 2 Networks Pointing to HQ WAN Router IP Address</p>
+        <p>- C. Route to Guest Network Pointing to HQ Core Switch Data Network HSRP Address</p>
     <h2><strong><u>Implementation</u></strong></h2>
         <h3>Step 1: Rack, Mount, and Power On The Cisco 2911 Router</h3>
             <p>- First, we'll Add a 2901 Router to the topology by dragging and dropping it into the Headquarters section of the lab. We'll place the 2901 Router in the top right area of HQ and label it as “HQ-INET-RTR”.</p>
