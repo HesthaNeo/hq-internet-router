@@ -42,6 +42,8 @@
             <p>- Next we will configure an access control list that will be applied to protect the internet facing interface.</p>
                 <img width="866" height="261" alt="Screenshot 2026-02-07 185411" src="https://github.com/user-attachments/assets/a4186eb3-0afb-42f2-b84a-a27f474a7b4e" />
         <h3>Step 5: Configure NAT</h3>
+            <p>- Next we will configure an access control list for translating all data and management networks, and also the HQ guest network.</p>
+                
         <h3>Step 6: Configure IOS Firewall Inspection Rules</h3>
         <h3>Step 7: Configure and Connect Inside LAN Interface G0/0</h3>
             <p>- Next we will configure the inside LAN interface G0/0 as a trunk for the Management and Data Networks, and connect the interface to the Core switched infrastructure.</p>
