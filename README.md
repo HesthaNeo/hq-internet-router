@@ -55,19 +55,11 @@
                 <img width="867" height="227" alt="Screenshot 2026-02-06 173804" src="https://github.com/user-attachments/assets/7889b8e9-57a4-489e-830c-0666a44a69cd" />
                 <img width="868" height="226" alt="Screenshot 2026-02-06 173845" src="https://github.com/user-attachments/assets/f0f17c2b-956e-49ff-b165-c225725d7412" />
                 <img width="874" height="225" alt="Screenshot 2026-02-06 173925" src="https://github.com/user-attachments/assets/10c4ef2e-7b14-4da8-8c5c-26a442f6884b" />
-        <h3>Step 6: Configure Private WAN Border Gateway Protocol (BGP) Peering</h3>
+        <h3>Step 9: Configure Private WAN Border Gateway Protocol (BGP) Peering</h3>
             <p>- For this step, we will configure an access-list to ensure that only authorized administrators can log into network devices either locally or remotely via SSH.</p>
                 <img width="866" height="338" alt="Screenshot 2026-02-06 174735" src="https://github.com/user-attachments/assets/79618d22-e5f1-4501-bcda-477e60cc495f" />
                 <img width="870" height="335" alt="Screenshot 2026-02-06 174909" src="https://github.com/user-attachments/assets/1cdb276d-d96b-4453-b06f-f8e5b1d0e1a8" />
                 <img width="868" height="339" alt="Screenshot 2026-02-06 175110" src="https://github.com/user-attachments/assets/1a88f976-e08d-4855-9e4f-b80cab455061" />
-        <h3>Step 9: Configure Private WAN Voice Quality of Service</h3>
-            <p>- Now we will configure all necessary access ports so that the corresponding end devices may connect to their specific vlan. We do this to provide security by segregating the traffic, simplifying network management, and ensuring these end devices only receive data intended for their assigned network segment. We will be configuring fast access ports Fa0/1 - 22 for all 3 switches. </p>
-                <img width="872" height="607" alt="Screenshot 2026-02-06 180001" src="https://github.com/user-attachments/assets/6ddf15a6-dd85-4b57-b455-e21dc4cdf042" />
-                <img width="869" height="317" alt="Screenshot 2026-02-06 180042" src="https://github.com/user-attachments/assets/b482fd4e-2296-418a-a168-5a5645146501" />
-                <img width="871" height="615" alt="Screenshot 2026-02-06 180157" src="https://github.com/user-attachments/assets/c02b2791-b0a5-42dd-97b3-7ff8bd6b4af6" />
-                <img width="873" height="349" alt="Screenshot 2026-02-06 180227" src="https://github.com/user-attachments/assets/4dff446f-1601-4267-9cde-dcb661249f1e" />
-                <img width="868" height="797" alt="Screenshot 2026-02-06 180327" src="https://github.com/user-attachments/assets/d2db6517-1af0-44dd-97a4-4ee74d4fef8f" />
-                <img width="873" height="325" alt="Screenshot 2026-02-06 180400" src="https://github.com/user-attachments/assets/d774149c-9f74-4526-8555-59991272ac5e" />
 
 
 
