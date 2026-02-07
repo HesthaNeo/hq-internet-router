@@ -59,6 +59,7 @@
             <p><em>- As you can see, we changed the speed of the g0/0 interface to match the interface of the core switch for predictable performance. We also created sub interfaces on the port for both the data vlan and the management vlan for better traffic management.</em></p>
                 <p>- B: Connect router interface G0/0 to a switchport using a straight-through cable on HQ-CORE-SW2 that is already configured as a trunk (ie. FastEthernet0/19).</p>
                 <img width="747" height="887" alt="Screenshot 2026-02-07 182345" src="https://github.com/user-attachments/assets/f0944b22-198a-409e-a64f-ab28e90992ec" />
+                <img width="869" height="709" alt="Screenshot 2026-02-07 182703" src="https://github.com/user-attachments/assets/ca12f94f-bde6-4f7c-847a-2059ac43cfed" />
         <h3>Step 5: Configure and Connect Private WAN Interface G0/1</h3>
             <p>- In this step, we will configure the default gateway for all 3 switches.</p>
                 <img width="867" height="227" alt="Screenshot 2026-02-06 173804" src="https://github.com/user-attachments/assets/7889b8e9-57a4-489e-830c-0666a44a69cd" />
