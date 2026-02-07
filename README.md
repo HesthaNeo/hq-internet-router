@@ -15,7 +15,7 @@
     <p>Step 7: Configure and Connect Inside LAN Interface G0/0</p>
         <p>- A. MGMT Interface VLAN 100</p> 
         <p>- B. DATA Interface VLAN 192</p>
-            <p>- I. NAT Inside</p>
+            <p>- i. NAT Inside</p>
     <p>Step 8: Configure and Connect Outside Internet Interface G0/1</p>
         <p>- A. IP Address</p>
         <p>- B. Disable CDP</p>
