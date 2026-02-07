@@ -2,7 +2,7 @@
 <img width="791" height="257" alt="Screenshot 2026-02-07 171520" src="https://github.com/user-attachments/assets/220b2130-a504-4326-8ef6-ec513d20357b" />
 </p>
 <h1><u>Milestone 4: HQ Internet Router</u></h1>
-    <p>Second phase, we will install 3 Cisco WS-C2960-24TT layer 2 access switches.</p>
+    <p>Third phase, we will install 1 CISCO2911/K9 with ipbasek9 and securityk9 licensing. This router will act as the gateway for all WAN services that connect Headquarters to Branch 1 and Branch 2. This includes a Private WAN connection to Branch 1 via the WAN service provider using BGP peering. In addition, a second internet service will be connected to this router solely for the purpose of creating an IPSec Site to Site (L2L) Virtual Private Network connection.</p>
     <h2><strong><u>Configuration Steps</u></strong></h2>
     <p>Step 1: Rack, Mount, and Power On All 3 Switches</p>
     <p>Step 2: Basic Switch Configurations (Hostname, NTP, Domain-Name, SSH, Etc)</p>
