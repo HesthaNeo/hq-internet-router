@@ -75,7 +75,15 @@
             <p><em>- The router now has a Default Route for unknown destinations (0.0.0.0 0.0.0.0).</em></p>
                 <p>- B: Now last, we will add all static routes.</p>
                 <img width="868" height="1068" alt="Screenshot 2026-02-08 132833" src="https://github.com/user-attachments/assets/d78b3025-2604-4972-9039-a4a9a79b836f" />
-            <p><em>- The router now has a Default Route for unknown destinations (0.0.0.0 0.0.0.0).</em></p>
+            <p>- Break down of all  our current static routes.</p>
+            <p><em>- ip route 172.16.10.0 255.255.255.0 192.168.10.100 (HQ Guest to HQ-Core-SW)</em></p>
+            <p><em>- ip route 10.10.10.0 255.255.255.0 192.168.10.100 (HQ Voice to HQ-Core-SW)</em></p>
+            <p><em>- ip route 192.168.120.0 255.255.255.0 192.168.10.254 (Branch 1 to HQ-WAN-RTR)</em></p>
+            <p><em>- ip route 192.168.20.0 255.255.255.0 192.168.10.254 (Branch 1 to HQ-WAN-RTR)</em></p>
+            <p><em>- ip route 10.10.20.0 255.255.255.0 192.168.10.254 (Branch 1 to HQ-WAN-RTR)</em></p>
+            <p><em>- ip route 192.168.130.0 255.255.255.0 192.168.10.254 (Branch 2 to HQ-WAN-RTR)</em></p>
+            <p><em>- ip route 192.168.30.0 255.255.255.0 192.168.10.254 (Branch 2 to HQ-WAN-RTR)</em></p>
+            <p><em>- ip route 10.10.30.0 255.255.255.0 192.168.10.254 (Branch 2 to HQ-WAN-RTR)</em></p>
 
 
 
