@@ -73,6 +73,9 @@
                 <p>- A: First we will configure the default route and test IP connectivity to the Google Server 8.8.8.8.</p>
                 <img width="872" height="452" alt="Screenshot 2026-02-08 132022" src="https://github.com/user-attachments/assets/60ced046-a881-4512-b202-bc8339eba2d5" />
             <p><em>- The router now has a Default Route for unknown destinations (0.0.0.0 0.0.0.0).</em></p>
+                <p>- B: Now last, we will add all static routes.</p>
+                <img width="868" height="1068" alt="Screenshot 2026-02-08 132833" src="https://github.com/user-attachments/assets/d78b3025-2604-4972-9039-a4a9a79b836f" />
+
 
 
 
