@@ -46,6 +46,7 @@
                 <img width="868" height="272" alt="Screenshot 2026-02-07 185904" src="https://github.com/user-attachments/assets/ea041f79-6b51-4cc8-967f-cd8b1b539e63" />
             <p>- Next we will configure NAT for "INSIDE" ACL with Overload to interface G0/1.</p>
                 <img width="872" height="179" alt="Screenshot 2026-02-07 190203" src="https://github.com/user-attachments/assets/ef5afac0-4946-44e9-a52e-97e71c00a86e" />
+            <p><em>- We use the overload command to allow devices in our private internal network to access the internet simultaneously using a single public IP address assigned to our router.</em></p>
         <h3>Step 6: Configure IOS Firewall Inspection Rules</h3>
         <h3>Step 7: Configure and Connect Inside LAN Interface G0/0</h3>
             <p>- Next we will configure the inside LAN interface G0/0 as a trunk for the Management and Data Networks, and connect the interface to the Core switched infrastructure.</p>
