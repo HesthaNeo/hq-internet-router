@@ -71,9 +71,7 @@
         <h3>Step 9: Configure Static Routes</h3>
             <p>- For this last step, we will add static routes that tell the router how to get to the guest network and our future branches.</p>
                 <p>- A: First we will configure the default route and test IP connectivity to the Google Server 8.8.8.8.</p>
-                <img width="866" height="338" alt="Screenshot 2026-02-06 174735" src="https://github.com/user-attachments/assets/79618d22-e5f1-4501-bcda-477e60cc495f" />
-                <img width="870" height="335" alt="Screenshot 2026-02-06 174909" src="https://github.com/user-attachments/assets/1cdb276d-d96b-4453-b06f-f8e5b1d0e1a8" />
-                <img width="868" height="339" alt="Screenshot 2026-02-06 175110" src="https://github.com/user-attachments/assets/1a88f976-e08d-4855-9e4f-b80cab455061" />
+                <img width="872" height="452" alt="Screenshot 2026-02-08 132022" src="https://github.com/user-attachments/assets/60ced046-a881-4512-b202-bc8339eba2d5" />
 
 
 
