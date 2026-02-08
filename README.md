@@ -69,7 +69,7 @@
                 <img width="870" height="418" alt="Screenshot 2026-02-08 131410" src="https://github.com/user-attachments/assets/4b1d01cb-9835-4531-a43b-7405b28fc511" />
             <p><em>- As you can see, we are able to successfully ping the internet cloud service provider router. This is possible due to the interfaces being directly connected, and ICMP traffic is being allowed.</em></p>
         <h3>Step 9: Configure Static Routes</h3>
-            <p>- For this step, we will configure an access-list to ensure that only authorized administrators can log into network devices either locally or remotely via SSH.</p>
+            <p>- For this last step, we will add static routes that tell the router how to get to the guest network and our future branches.</p>
                 <img width="866" height="338" alt="Screenshot 2026-02-06 174735" src="https://github.com/user-attachments/assets/79618d22-e5f1-4501-bcda-477e60cc495f" />
                 <img width="870" height="335" alt="Screenshot 2026-02-06 174909" src="https://github.com/user-attachments/assets/1cdb276d-d96b-4453-b06f-f8e5b1d0e1a8" />
                 <img width="868" height="339" alt="Screenshot 2026-02-06 175110" src="https://github.com/user-attachments/assets/1a88f976-e08d-4855-9e4f-b80cab455061" />
