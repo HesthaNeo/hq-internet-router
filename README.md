@@ -4,25 +4,25 @@
 <h1><u>Milestone 4: HQ Internet Router</u></h1>
     <p>Third phase, we will install 1 CISCO2911/K9 with ipbasek9 and securityk9 licensing. This router will act as the gateway for all WAN services that connect Headquarters to Branch 1 and Branch 2. This includes a Private WAN connection to Branch 1 via the WAN service provider using BGP peering. In addition, a second internet service will be connected to this router solely for the purpose of creating an IPSec Site to Site (L2L) Virtual Private Network connection.</p>
     <h2><strong><u>Configuration Steps</u></strong></h2>
-    <p>Step 1: Rack, Mount, and Power On The Cisco 2911 Router</p>
-    <p>Step 2: Basic Switch Configurations (Hostname, NTP, Domain-Name, SSH, Etc)</p>
-    <p>Step 3: Install Securityk9 License</p>
-    <p>Step 4: Configure Inbound Internet Access-List</p>
-    <p>Step 5: Configure NAT</p>
+    <p><b>Step 1: Rack, Mount, and Power On The Cisco 2911 Router</b></p>
+    <p><b>Step 2: Basic Switch Configurations (Hostname, NTP, Domain-Name, SSH, Etc)</b></p>
+    <p><b>Step 3: Install Securityk9 License</b></p>
+    <p><b>Step 4: Configure Inbound Internet Access-List</b></p>
+    <p><b>Step 5: Configure NAT</b></p>
         <p>- A. NAT Inside Access-List</p>
         <p>- B. NAT Overload</p>
-    <p>Step 6: Configure IOS Firewall Inspection Rules</p>
-    <p>Step 7: Configure and Connect Inside LAN Interface G0/0</p>
+    <p><b>Step 6: Configure IOS Firewall Inspection Rules</b></p>
+    <p><b>Step 7: Configure and Connect Inside LAN Interface G0/0</b></p>
         <p>- A. MGMT Interface VLAN 100</p> 
         <p>- B. DATA Interface VLAN 192</p>
             <p>- i. NAT Inside</p>
-    <p>Step 8: Configure and Connect Outside Internet Interface G0/1</p>
+    <p><b>Step 8: Configure and Connect Outside Internet Interface G0/1</b></p>
         <p>- A. IP Address</p>
         <p>- B. Disable CDP</p>
         <p>- C. Apply Inbound Access-List</p>
         <p>- D. Apply IOS Firewall Outbound</p>
         <p>- E. NAT Outside</p>
-    <p>Step 9: Configure Static Routes</p>
+    <p><b>Step 9: Configure Static Routes</b></p>
         <p>- A. Default Route Pointing to Internet Gateway Public IP</p>
         <p>- B. Routes to Branch 1 Networks and Branch 2 Networks Pointing to HQ WAN Router IP Address</p>
         <p>- C. Route to Guest Network Pointing to HQ Core Switch Data Network HSRP Address</p>
