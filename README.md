@@ -60,12 +60,12 @@
                 <img width="747" height="887" alt="Screenshot 2026-02-07 182345" src="https://github.com/user-attachments/assets/f0944b22-198a-409e-a64f-ab28e90992ec" />
                 <img width="869" height="709" alt="Screenshot 2026-02-07 182703" src="https://github.com/user-attachments/assets/ca12f94f-bde6-4f7c-847a-2059ac43cfed" />
             <p><em>- Successful pings, showing we are able to establish connectivity to both the MGMT and DATA networks.</em></p>
-        <h3>Step 8: Configure and Connect Private WAN Interface G0/1</h3>
+        <h3>Step 8: Configure and Connect Outside Internet Interface G0/1</h3>
             <p>- In this step, we will configure the default gateway for all 3 switches.</p>
                 <img width="867" height="227" alt="Screenshot 2026-02-06 173804" src="https://github.com/user-attachments/assets/7889b8e9-57a4-489e-830c-0666a44a69cd" />
                 <img width="868" height="226" alt="Screenshot 2026-02-06 173845" src="https://github.com/user-attachments/assets/f0f17c2b-956e-49ff-b165-c225725d7412" />
                 <img width="874" height="225" alt="Screenshot 2026-02-06 173925" src="https://github.com/user-attachments/assets/10c4ef2e-7b14-4da8-8c5c-26a442f6884b" />
-        <h3>Step 9: Configure Private WAN Border Gateway Protocol (BGP) Peering</h3>
+        <h3>Step 9: Configure Static Routes</h3>
             <p>- For this step, we will configure an access-list to ensure that only authorized administrators can log into network devices either locally or remotely via SSH.</p>
                 <img width="866" height="338" alt="Screenshot 2026-02-06 174735" src="https://github.com/user-attachments/assets/79618d22-e5f1-4501-bcda-477e60cc495f" />
                 <img width="870" height="335" alt="Screenshot 2026-02-06 174909" src="https://github.com/user-attachments/assets/1cdb276d-d96b-4453-b06f-f8e5b1d0e1a8" />
