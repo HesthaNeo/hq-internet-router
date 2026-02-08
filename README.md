@@ -63,6 +63,7 @@
         <h3>Step 8: Configure and Connect Outside Internet Interface G0/1</h3>
             <p>- Next, we will configure the internet facing interface.</p>
                 <img width="870" height="432" alt="Screenshot 2026-02-08 130035" src="https://github.com/user-attachments/assets/8b792b4a-e833-4140-8de3-1956d1698130" />
+            <p><em>- As you can see, we changed the speed of the g0/1 interface to match the speed interface with the ISP router. We also used the command "no cdp enable" to prevent sharing private network details with unauthorized parties. This will stop the router from broadcasting information such as IOS version, device type, and IP addresses to the Internet Service Provider (ISP) or attackers.</em></p>
         <h3>Step 9: Configure Static Routes</h3>
             <p>- For this step, we will configure an access-list to ensure that only authorized administrators can log into network devices either locally or remotely via SSH.</p>
                 <img width="866" height="338" alt="Screenshot 2026-02-06 174735" src="https://github.com/user-attachments/assets/79618d22-e5f1-4501-bcda-477e60cc495f" />
